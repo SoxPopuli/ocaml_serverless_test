@@ -1,0 +1,4 @@
+(executable
+ (public_name serverless_test)
+ (name main)
+ (libraries serverless_test))
