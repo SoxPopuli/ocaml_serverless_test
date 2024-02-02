@@ -20,9 +20,13 @@
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends 
-  (ocaml (>= 5.2.0)) 
+  (ocaml (= 5.1.1)) 
   (dune (>= 3.9.0))
   (base (= v0.16.3))
+  (ppx_deriving (>= 5.2.1))
+
+  (ocaml-lsp-server :dev)
+  (ocamlformat :dev)
  )
  (tags
   (topics "to describe" your project)))

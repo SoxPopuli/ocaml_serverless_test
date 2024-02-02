@@ -1,4 +1,5 @@
 (executable
  (public_name serverless_test)
  (name main)
- (libraries serverless_test))
+ (libraries serverless_test)
+ (preprocess (pps ppx_deriving.show)))

@@ -11,19 +11,66 @@ homepage: "https://github.com/username/reponame"
 doc: "https://url/to/documentation"
 bug-reports: "https://github.com/username/reponame/issues"
 depends: [
+  "astring" {= "0.8.5" & dev}
   "base" {= "v0.16.3"}
   "base-bigarray" {= "base"}
+  "base-bytes" {= "base" & dev}
   "base-domains" {= "base"}
   "base-nnp" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & dev}
+  "chrome-trace" {= "3.13.0" & dev}
+  "cmdliner" {= "1.2.0" & dev}
+  "cppo" {= "1.6.9"}
   "csexp" {= "1.5.2"}
   "dune" {= "3.13.0"}
+  "dune-build-info" {= "3.13.0" & dev}
   "dune-configurator" {= "3.13.0"}
-  "ocaml" {= "5.2.0"}
+  "dune-rpc" {= "3.13.0" & dev}
+  "dyn" {= "3.13.0" & dev}
+  "either" {= "1.0.0" & dev}
+  "fiber" {= "3.7.0" & dev}
+  "fix" {= "20230505" & dev}
+  "fpath" {= "0.7.3" & dev}
+  "menhir" {= "20231231" & dev}
+  "menhirCST" {= "20231231" & dev}
+  "menhirLib" {= "20231231" & dev}
+  "menhirSdk" {= "20231231" & dev}
+  "merlin-lib" {= "4.13.1-501" & dev}
+  "ocaml" {= "5.1.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
   "ocaml-config" {= "3"}
-  "ocaml-variants" {= "5.2.0+trunk"}
+  "ocaml-lsp-server" {= "1.17.0" & dev}
+  "ocaml-system" {= "5.1.1"}
+  "ocaml-version" {= "3.6.4" & dev}
+  "ocamlbuild" {= "0.14.3" & dev}
+  "ocamlc-loc" {= "3.13.0" & dev}
+  "ocamlfind" {= "1.9.6"}
+  "ocamlformat" {= "0.26.1" & dev}
+  "ocamlformat-lib" {= "0.26.1" & dev}
+  "ocamlformat-rpc-lib" {= "0.26.1" & dev}
+  "ocp-indent" {= "1.8.1" & dev}
+  "ordering" {= "3.13.0" & dev}
+  "pp" {= "1.2.0" & dev}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "5.2.1"}
+  "ppx_yojson_conv_lib" {= "v0.16.0" & dev}
+  "ppxlib" {= "0.31.0"}
+  "re" {= "1.11.0" & dev}
+  "result" {= "1.5"}
+  "seq" {= "base" & dev}
   "sexplib0" {= "v0.16.0"}
+  "spawn" {= "v0.15.1" & dev}
+  "stdio" {= "v0.16.0" & dev}
+  "stdlib-shims" {= "0.3.0"}
+  "stdune" {= "3.13.0" & dev}
+  "topkg" {= "1.0.7" & dev}
+  "uucp" {= "15.1.0" & dev}
+  "uuseg" {= "15.1.0" & dev}
+  "uutf" {= "1.0.3" & dev}
+  "xdg" {= "3.13.0" & dev}
+  "yojson" {= "2.1.2" & dev}
 ]
 build: [
   ["dune" "subst"] {dev}
